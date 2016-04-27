@@ -1,0 +1,23 @@
+# Site settings
+title: Darren Atherton
+email: darren.a.atherton@gmail.com
+description: >
+  A personal site for Android Developer Darren Atherton, focusing on Android
+  software development, mobile UI/UX, technical/personal blog and software portfolio.
+baseurl: "/darrenatherton49.github.io"
+url: "http://github.com"
+fixedNav: 'true' # true or false
+theme: grey # green, blue, orange, purple, grey
+twitterUsername: darrenatherton
+githubUsername: darrenatherton49
+linkedInUsername: darrenatherton
+dribbbleUsername:
+codepenUsername:
+
+# Build settings
+permalink: /:year/:month/:title
+markdown: kramdown
+include: [_pages]
+exclude: [_site, CHANGELOG.md, LICENSE, README.md]
+sass:
+  style: compressed
