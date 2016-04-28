@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Two Thousand Fourteen"
 date:   2014-01-03 18:52:21
 categories: jekyll update
