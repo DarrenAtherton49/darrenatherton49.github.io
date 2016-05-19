@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="c-article">
+  <header class="c-header c-article__header">
+    <div class="u-container">
+      <h1 class="c-header__title">{{ page.title }}</h1>
+    </div>
+  </header>
+
+  <div class="c-article__main">
+
+  	<a href="{{ page.play_store_app_url }}">
+  		<img src="/assets/general/google-play-badge.png" alt="Get it on Google Play" style="width: 300px;"/>
+  	</a>
+
+
+    {{ content }}
+    {% include comments.html %}
+  </div>
+</article>

@@ -15,6 +15,27 @@ dribbbleUsername:
 codepenUsername:
 disqusid: darrenatherton49.github.io
 
+collections:
+   android-apps:
+      output: true
+      permalink: /android-apps/:path/
+   android-libraries:
+      output: true
+      permalink: /android-libraries/:path/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "android-apps"
+    values:
+      layout: "android_app"
+  -
+    scope:
+      path: ""
+      type: "android-libraries"
+    values:
+      layout: "android_library"
+
 # Build settings
 permalink: /:year/:month/:day/:title
 markdown: kramdown
