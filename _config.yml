@@ -18,10 +18,10 @@ disqusid: darrenatherton49.github.io
 collections:
    android-apps:
       output: true
-      permalink: /android-apps/:path/
+      permalink: /work/:path
    android-libraries:
       output: true
-      permalink: /android-libraries/:path/
+      permalink: /work/:path
 defaults:
   -
     scope:
