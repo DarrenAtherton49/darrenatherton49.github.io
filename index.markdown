@@ -7,11 +7,11 @@ title: Darren Atherton - Android Developer
 
 Hello, I'm Darren Atherton. Thanks for visiting my site!
 
-I'm a professional Android developer who is passionate about building apps with an excellent user experience, grounded in clean, well-structured and testable code.
+I'm a professional Android developer who is passionate about building apps with an excellent user experience, grounded in clean, well-structured and testable code. When developing for Android, I tend to follow [these conventions][android-conventions-link].
 
-When developing for Android, I following the conventions listed [here][android-conventions-link].
+My open source stuff can be found on [GitHub][github-link].
 
-My open source code can be found on [GitHub][github-link].
+When I'm not developing software, I like to listen to podcasts ([Fragmented][fragmented-link] being my favourite), scour the internet for new music, [visit new places][visit-places-link] and take part in [open water swimming][open-water-swimming-link].
 
 ## Work
 
@@ -45,3 +45,7 @@ You can find out more or get in touch via any of the following:
 [resume-code-link]: https://github.com/DarrenAtherton49/MaterialCV
 [linkedin-link]: https://linkedin.com/in/darrenatherton
 [twitter-link]: https://twitter.com/darrenatherton
+[fragmented-link]: http://fragmentedpodcast.com
+[visit-places-link]: /assets/photos/willis_tower.jpg
+[open-water-swimming-link]: /assets/photos/open_water_swimming.jpg
+

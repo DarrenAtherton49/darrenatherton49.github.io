@@ -7,7 +7,7 @@ description: >
 baseurl: ""
 url: "http://github.com"
 fixedNav: 'true' # true or false
-theme: grey # green, blue, orange, purple, grey
+theme: blue # green, blue, orange, purple, grey
 twitterUsername: darrenatherton
 githubUsername: darrenatherton49
 linkedInUsername: darrenatherton
