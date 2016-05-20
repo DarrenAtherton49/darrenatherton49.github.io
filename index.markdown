@@ -7,7 +7,7 @@ title: Darren Atherton - Android Developer
 
 Hello, I'm Darren Atherton. Thanks for visiting my site!
 
-I'm a professional Android developer who believes in building apps with an excellent user experience, grounded in clean, well-structured and testable code. When developing for Android, I tend to follow [these conventions][android-conventions-link].
+I'm a professional Android developer who believes in building apps with an excellent user experience grounded in clean, well-structured and testable code. When developing for Android, I tend to follow [these conventions][android-conventions-link].
 
 My open source stuff can be found on [GitHub][github-link].
 
