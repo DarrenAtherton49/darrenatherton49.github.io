@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Darren Atherton - Android Developer
+title: Darren Atherton
 ---
 
 ## About
