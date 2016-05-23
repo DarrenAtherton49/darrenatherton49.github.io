@@ -7,7 +7,7 @@ description: >
 baseurl: ""
 url: ""
 fixedNav: 'true' # true or false
-theme: blue # green, blue, orange, purple, grey
+theme: grey # green, blue, orange, purple, grey
 twitterUsername: darrenatherton
 githubUsername: darrenatherton49
 linkedInUsername: darrenatherton
