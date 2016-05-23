@@ -5,7 +5,7 @@ description: >
   A personal site for Android Developer Darren Atherton, focusing on Android
   software development, mobile UI/UX, technical/personal blog and software portfolio.
 baseurl: ""
-url: "http://github.com"
+url: ""
 fixedNav: 'true' # true or false
 theme: blue # green, blue, orange, purple, grey
 twitterUsername: darrenatherton
