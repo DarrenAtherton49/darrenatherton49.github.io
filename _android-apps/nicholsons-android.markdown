@@ -1,5 +1,6 @@
 ---
 comments: true
+date: 2016-05-25 17:00:00
 title: "Nicholson's Android App"
 app_name: "Nicholson's"
 app_description: ""

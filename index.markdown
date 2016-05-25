@@ -19,11 +19,12 @@ Below is a list of some things I've worked on (both commercial and open-source):
 
 ### Android Apps
 
-{% for android-app in site.android-apps %}
-- <a href="{{ android-app.url}}">{{ android-app.app_name }}</a>
+{% for android-app in site.android-apps reversed | sort: 'date' %}
+- <a href="{{ android-app.url }}">{{ android-app.app_name }}</a>
 {% endfor %}
 
 ### Android Libraries
+
 
 ## More Links
 
