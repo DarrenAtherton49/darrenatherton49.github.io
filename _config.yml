@@ -1,45 +1,23 @@
-# Site settings
-title: Darren Atherton
-email: darren.a.atherton@gmail.com
-description: >
-  A personal site for Android Developer Darren Atherton, focusing on Android
-  software development, mobile UI/UX, technical/personal blog and software portfolio.
-baseurl: ""
-url: ""
-fixedNav: 'true' # true or false
-theme: grey # green, blue, orange, purple, grey
-twitterUsername: darrenatherton
-githubUsername: darrenatherton49
-linkedInUsername: darrenatherton
-dribbbleUsername:
-codepenUsername:
-disqusid: darrenatherton49.github.io
+# Setup
+title:        Darren Atherton
+tagline:      "Hello, I’m Darren Atherton, a software engineer interested in Android, Kotlin, Artificial Intelligence and open-source software."
+baseurl:      ""
+paginate:     1
 
-collections:
-   android-apps:
-      output: true
-      permalink: /work/:path
-   android-libraries:
-      output: true
-      permalink: /work/:path
-defaults:
-  -
-    scope:
-      path: ""
-      type: "android-apps"
-    values:
-      layout: "android_app"
-  -
-    scope:
-      path: ""
-      type: "android-libraries"
-    values:
-      layout: "android_library"
+# About/contact
+author:
+  name:       Darren Atherton
+  url:        http://darrenatherton.co.uk/
 
-# Build settings
-permalink: /:year/:month/:day/:title
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
 markdown: kramdown
-include: [_pages]
-exclude: [_site, CHANGELOG.md, LICENSE, README.md]
-sass:
-  style: compressed
+
+githublink: "https://github.com/DarrenAtherton49"
+twitterlink: "https://twitter.com/DarrenAtherton"
+linkedinlink: "https://linkedin.com/in/darrenatherton"
+resumelink: "https://github.com/DarrenAtherton49/resume/blob/master/resume.pdf"
+disqusid: darrenatherton49.github.io

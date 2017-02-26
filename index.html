@@ -1,0 +1,25 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
+<div id="home">
+  <h1>Tech Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+  		{% if post.categories contains 'tech' %}
+      		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  		{% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+<h1>Other Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+  		{% if post.categories contains 'other' %}
+      		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  		{% endif %}
+    {% endfor %}
+  </ul>
+</div>
