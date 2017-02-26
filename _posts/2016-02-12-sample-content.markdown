@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 title:  "Welcome to tech!"
 date:   2016-02-12 17:50:00
+comments: true
 categories: tech
 ---
 

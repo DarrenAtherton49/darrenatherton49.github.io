@@ -13,8 +13,9 @@ author:
 gems:
   - jekyll-paginate
 
-#Others
+# Build/other
 markdown: kramdown
+permalink: /:year/:month/:day/:title.html
 
 githublink: "https://github.com/DarrenAtherton49"
 twitterlink: "https://twitter.com/DarrenAtherton"
