@@ -14,6 +14,17 @@ title: {{ site.name }}
   </ul>
 </div>
 
+  <h1>Flying Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.categories contains 'flying' %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+<!--
 <h1>Other Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
@@ -23,3 +34,4 @@ title: {{ site.name }}
     {% endfor %}
   </ul>
 </div>
+-->
