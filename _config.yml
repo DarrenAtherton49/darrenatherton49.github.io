@@ -39,3 +39,10 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 disqus: darrenatherton
+
+# External links
+githublink: "https://github.com/DarrenAtherton49"
+twitterlink: "https://twitter.com/DarrenAtherton"
+speakerdecklink: "https://speakerdeck.com/darrenatherton"
+linkedinlink: "https://linkedin.com/in/darrenatherton"
+resumelink: "https://github.com/DarrenAtherton49/resume/blob/master/resume.pdf"
