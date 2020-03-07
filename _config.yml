@@ -1,26 +1,41 @@
-# Setup
-title:        Darren Atherton
-tagline:      "Hello, I’m Darren Atherton, a software engineer interested in Android, Kotlin, AI, Robotics and open-source software."
-baseurl:      ""
-paginate:     1
+# Site settings
+title:          Darren Atherton
+description:    "Personal blog of Darren Atherton"
+url:            "http://darrenatherton.co.uk"
+baseurl:        ""
 
-# About/contact
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
 author:
-  name:       Darren Atherton
-  url:        http://darrenatherton.co.uk/
+  name:         Darren Atherton
+  url:          http://darrenatherton.co.uk
+  # email:        
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
 
 # Gems
-gems:
+plugins:
+  - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
 
-# Build/other
-markdown: kramdown
-permalink: /:year/:month/:day/:title.html
+# Permalinks
+permalink:      /:day-:month-:year/:title
+paginate:       5
 
-githublink: "https://github.com/DarrenAtherton49"
-twitterlink: "https://twitter.com/DarrenAtherton"
-speakerdecklink: "https://speakerdeck.com/darrenatherton"
-mediumlink: "https://medium.com/@DarrenAtherton"
-linkedinlink: "https://linkedin.com/in/darrenatherton"
-resumelink: "https://github.com/DarrenAtherton49/resume/blob/master/resume.pdf"
-disqusid: darrenatherton49.github.io
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus: darrenathertondev

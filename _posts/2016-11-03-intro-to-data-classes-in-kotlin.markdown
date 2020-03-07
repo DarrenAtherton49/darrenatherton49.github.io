@@ -3,7 +3,6 @@ layout: post
 title:  "Intro to Data Classes in Kotlin"
 date:   2016-11-03 17:50:00
 comments: true
-categories: Tech
 ---
 
 **Tired of writing (or generating) lengthy, boilerplate code for objects which do nothing but store data?**
