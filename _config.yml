@@ -1,7 +1,7 @@
 # Site settings
 title:          Darren Atherton
 description:    "Personal blog of Darren Atherton"
-url:            "darrenatherton.co.uk"
+url:            "darrenatherton.dev"
 baseurl:        ""
 
 # Google Analytics
@@ -10,7 +10,7 @@ google_analytics: UA—XXXXXXXX-X
 # Author
 author:
   name:         Darren Atherton
-  url:          darrenatherton.co.uk
+  url:          darrenatherton.dev
   # email:        
 
 # Build settings
