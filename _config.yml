@@ -4,9 +4,6 @@ description:    "Personal blog of Darren Atherton"
 url:            "darrenatherton.dev"
 baseurl:        ""
 
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
-
 # Author
 author:
   name:         Darren Atherton
@@ -39,6 +36,9 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 disqus: darrenatherton
+
+# Google Analytics
+google_analytics: UA-159900922-1
 
 # External links
 githublink: "https://github.com/DarrenAtherton49"
